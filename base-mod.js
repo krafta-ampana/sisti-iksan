@@ -44,7 +44,7 @@ function getDataUcapan() {
             divUcapan.empty();
             data.forEach(row => {
                 divUcapan.append(
-                    `<div class="mb-2"><strong>${row[2]}</strong>
+                    `<div class="mb-2" style="border-bottom:1px dotted #ccc"><strong>${row[2]}</strong>
                     <span class="text-muted" style="float: right; font-size:7pt;">${row[4]}</span>
                     <p><i>"${row[3]}"</i></p></div>`
                 );
